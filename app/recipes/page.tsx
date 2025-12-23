@@ -10,6 +10,8 @@ async function Results({
 }) {
   const { q = '' } = await searchParams; // API dinamica asincrona (v15+)
   const origin = await getBaseUrl();
+  console.log({ origin });
+
   const url = `${origin}/api/recipes/search?q=${encodeURIComponent(q)}`;
 
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
