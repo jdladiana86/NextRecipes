@@ -4,7 +4,7 @@ export default async function Home() {
   return (
     <>
       <h1 className="text-2xl font-bold">
-        Ciao Javi, benvenuto su NextRecipes
+        Ciao Javier Daniel Ladiana, benvenuto su NextRecipes
       </h1>
       <p className="text-gray-600">
         Cerca ricette, esplora categorie e prova una ricetta casuale.
